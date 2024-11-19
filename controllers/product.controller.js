@@ -2,7 +2,7 @@ import mongoose from 'mongoose'
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import ProductModel from '../models/product.model.js'
+import ProductModel from '../models/Product.model.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
